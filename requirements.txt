@@ -1,0 +1,4 @@
+fastapi
+uvicorn[standard]
+sqlite3-binary
+jinja2

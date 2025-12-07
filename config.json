@@ -1,0 +1,14 @@
+{
+  "name": "Rangement interactif",
+  "version": "1.0",
+  "slug": "rangement_interactif",
+  "description": "Add-on local pour gérer un mur de rangement interactif avec UI et API SQLite",
+  "startup": "application",
+  "boot": "auto",
+  "arch": ["armv7", "armhf", "aarch64", "amd64", "i386"],
+  "map": ["config:rw"],
+  "options": {},
+  "schema": {},
+  "ingress": true,
+  "ingress_port": 5000
+}

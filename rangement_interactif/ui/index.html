@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rangement interactif</title>
+<link rel="stylesheet" href="/ui/style.css">
+</head>
+<body>
+<div class="topbar">
+<h1>Mur UKWatch</h1>
+<div class="search">
+<input id="search" placeholder="Rechercher un objet..." oninput="debouncedSearch()" />
+</div>
+<button id="editLayout">Éditer disposition</button>
+</div>
+
+
+<div id="container" class="grid">
+<!-- la carte sera injectée ici -->
+</div>
+
+
+<div id="results" class="results"></div>
+
+
+<script src="/ui/script.js"></script>
+</body>
+</html>
